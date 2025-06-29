@@ -1,0 +1,46 @@
+🏗️ Building model architecture...
+Model built with 2,604,609 parameters
+Found 20000 images belonging to 2 classes.
+Found 5000 images belonging to 2 classes.
+🚀 Starting training...
+Epoch 1/15
+625/625 ━━━━━━━━━━━━━━━━━━━━ 4308s 7s/step - accuracy: 0.6176 - loss: 0.8228 - val_accuracy: 0.6284 - val_loss: 0.6355 - learning_rate: 0.0010
+Epoch 2/15
+625/625 ━━━━━━━━━━━━━━━━━━━━ 1355s 2s/step - accuracy: 0.7104 - loss: 0.5564 - val_accuracy: 0.7258 - val_loss: 0.5260 - learning_rate: 0.0010
+Epoch 3/15
+625/625 ━━━━━━━━━━━━━━━━━━━━ 1286s 2s/step - accuracy: 0.7563 - loss: 0.4993 - val_accuracy: 0.7336 - val_loss: 0.5412 - learning_rate: 0.0010
+Epoch 4/15
+625/625 ━━━━━━━━━━━━━━━━━━━━ 1342s 2s/step - accuracy: 0.8019 - loss: 0.4344 - val_accuracy: 0.7154 - val_loss: 0.5798 - learning_rate: 0.0010
+Epoch 5/15
+625/625 ━━━━━━━━━━━━━━━━━━━━ 1341s 2s/step - accuracy: 0.8203 - loss: 0.3927 - val_accuracy: 0.6534 - val_loss: 0.7113 - learning_rate: 0.0010
+Epoch 6/15
+625/625 ━━━━━━━━━━━━━━━━━━━━ 1336s 2s/step - accuracy: 0.8582 - loss: 0.3257 - val_accuracy: 0.8210 - val_loss: 0.3891 - learning_rate: 5.0000e-04
+Epoch 7/15
+625/625 ━━━━━━━━━━━━━━━━━━━━ 1268s 2s/step - accuracy: 0.8751 - loss: 0.2923 - val_accuracy: 0.8280 - val_loss: 0.4214 - learning_rate: 5.0000e-04
+Epoch 8/15
+625/625 ━━━━━━━━━━━━━━━━━━━━ 1320s 2s/step - accuracy: 0.8806 - loss: 0.2783 - val_accuracy: 0.8206 - val_loss: 0.4237 - learning_rate: 5.0000e-04
+Epoch 9/15
+625/625 ━━━━━━━━━━━━━━━━━━━━ 1270s 2s/step - accuracy: 0.8794 - loss: 0.2768 - val_accuracy: 0.8894 - val_loss: 0.2604 - learning_rate: 5.0000e-04
+Epoch 10/15
+625/625 ━━━━━━━━━━━━━━━━━━━━ 1270s 2s/step - accuracy: 0.8932 - loss: 0.2524 - val_accuracy: 0.8356 - val_loss: 0.3673 - learning_rate: 5.0000e-04
+Epoch 11/15
+625/625 ━━━━━━━━━━━━━━━━━━━━ 1321s 2s/step - accuracy: 0.8968 - loss: 0.2435 - val_accuracy: 0.8904 - val_loss: 0.2631 - learning_rate: 5.0000e-04
+Epoch 12/15
+625/625 ━━━━━━━━━━━━━━━━━━━━ 1272s 2s/step - accuracy: 0.8992 - loss: 0.2385 - val_accuracy: 0.8752 - val_loss: 0.2836 - learning_rate: 5.0000e-04
+Epoch 13/15
+625/625 ━━━━━━━━━━━━━━━━━━━━ 1277s 2s/step - accuracy: 0.9072 - loss: 0.2231 - val_accuracy: 0.9120 - val_loss: 0.2145 - learning_rate: 2.5000e-04
+Epoch 14/15
+625/625 ━━━━━━━━━━━━━━━━━━━━ 1278s 2s/step - accuracy: 0.9157 - loss: 0.2066 - val_accuracy: 0.9174 - val_loss: 0.1981 - learning_rate: 2.5000e-04
+Epoch 15/15
+625/625 ━━━━━━━━━━━━━━━━━━━━ 1316s 2s/step - accuracy: 0.9158 - loss: 0.1997 - val_accuracy: 0.9198 - val_loss: 0.2004 - learning_rate: 2.5000e-04
+✅ Training completed in 22576.32 seconds
+📊 Prediction Summary:
+Total images processed: 12510
+Cats predicted: 6114 (48.9%)
+Dogs predicted: 6396 (51.1%)
+Average confidence: 0.924
+High confidence predictions (>80%): 10738 (85.8%)
+💾 Results saved to 'predictions.csv'
+
+✅ Classification completed successfully!
+Check 'predictions.csv' for detailed results
